@@ -1,0 +1,18 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+        "outDir": "./out-tsc/spec",
+        "types": [
+            "jasmine"
+        ],
+        "esModuleInterop": true,
+        "emitDecoratorMetadata": true
+    },
+    "files": [
+        "frontend/src/test.ts"
+    ],
+    "include": [
+        "frontend/src/**/*.ts",
+        "frontend/src/**/*.d.ts"
+    ]
+}

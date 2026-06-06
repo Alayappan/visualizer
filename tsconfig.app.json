@@ -1,0 +1,14 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+        "outDir": "./out-tsc/app",
+        "types": []
+    },
+    "files": [
+        "frontend/src/main.ts",
+        "frontend/src/polyfills.ts"
+    ],
+    "include": [
+        "frontend/src/**/*.ts"
+    ]
+}
